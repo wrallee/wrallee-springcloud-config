@@ -2,4 +2,4 @@ server:
   port: 0
 
 greeting:
-  message: 'Configuration-change via kafka by webhook'
+  message: 'Webhook + Kafka config-change test!'
