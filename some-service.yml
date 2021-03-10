@@ -2,4 +2,13 @@ server:
   port: 0
 
 greeting:
-  message: 'Webhook + Kafka config-change test!'
+  message: 'MongoDB connection information added.'
+
+spring:
+  data:
+    mongodb:
+      host: '{cipher}e2d18f86c7b05c61cc84ab7ae6573fc1ebf6618f3613b434e2ec66d8371dd81b'
+      post: '{cipher}0fe9d83aac55c6857bf5c4a5331e8e2d151edefe223e7c2db79ddaa4598c5055'
+      database: '{cipher}3e4d2d0b4d1399c33ea6f8f2505781ac565d4a31912e77d20129dcfeb59dff7f'
+      username: '{cipher}4c2b67e34b15620983f67a967a138b1963e54624de2fc4cd7c31f893395ed60a'
+      password: '{cipher}160db3573f8bbce505f546095c7b2ec982a76b1fd19fd6b7c7a62f944ccb09a5'
