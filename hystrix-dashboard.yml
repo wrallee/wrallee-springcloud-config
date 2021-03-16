@@ -1,2 +1,8 @@
 server:
   port: 7979
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: localhost
+turbine:
+  app-config: some-service, some-client
+  cluster-name-expression: "'default'"
